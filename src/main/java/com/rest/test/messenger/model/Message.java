@@ -18,6 +18,7 @@ public class Message {
 	private String author;
 	private Map <Long,Comment> comments = new HashMap<Long,Comment>();
 	private List <Link> links = new ArrayList<Link>();
+	private String testingl;
 
 	public Message(){}
 	
